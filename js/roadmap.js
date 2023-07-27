@@ -23,7 +23,7 @@ const COMPLETED = "released",
         title: "💀The Stranger",
         description: "You can become an unknown monster that has supernatural powers.",
         status: COMINGSOON,
-        link: "https://www.roblox.com/games/14218299975/The-Stranger",
+        link: "https://www.roblox.com/games/14218299975",
         features: [{
             title: "General Mechanics",
             description: "The basic mechanics of the game are being developed, from interface elements to player interactions.",
@@ -35,7 +35,13 @@ const COMPLETED = "released",
         title: "🧛‍♂️Vampire Murder",
         description: "Play with friends as a Vampire, Hunter, or human. Be cautious, accidentally killing a human means death for you. Roles are randomized each match. Find weapons to fight the Vampire or aid the Vampire Hunter. Beware, the vampire lurks among the players. Minimum 3-players to start. Prepare for an adrenaline-pumping adventure!",
         status: PBT,
-        link: "https://www.roblox.com/games/14132106226/Vampire-Murder-ALPHA"
+        link: "https://www.roblox.com/games/14132106226"
+    },
+    {
+        title: "👹Capybara Escape",
+        description: "Horror game in which you have to survive in the burrow of a horrible capybara.",
+        status: COMPLETED,
+        link: "https://www.roblox.com/games/13649816982"
     }],
 
     template = document.getElementById("item-template"),
