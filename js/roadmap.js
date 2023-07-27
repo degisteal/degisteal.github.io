@@ -31,7 +31,7 @@ const COMPLETED = "completed",
 
     PRE_RELEASE = [{
         title: "🧛‍♂️Vampire Murder",
-        description: "Play with friends, take on the role of Vampire, Hunter or human.",
+        description: "VAMPIRE MURDER - Thrilling Multiplayer Game!" + "<br>" + "Play with friends as a Vampire, Hunter, or human. Be cautious, accidentally killing a human means death for you. Roles are randomized each match. Find weapons to fight the Vampire or aid the Vampire Hunter. Beware, the vampire lurks among the players. Minimum 3-players to start. Prepare for an adrenaline-pumping adventure!",
         status: COMPLETED,
         link: "https://www.roblox.com/games/14132106226/Vampire-Murder-ALPHA"
     }],
