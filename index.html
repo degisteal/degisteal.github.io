@@ -1,7 +1,104 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en"><head>
+
+
+  <title>Joulion Studio Roblox</title>
+  <meta content="Joulion Studio Roblox" property="og:title">
+  <meta content="This is where we post the status of our games, future and present, we look forward to seeing you soon!." property="og:description">
+  <meta content="https://embed.com/this-is-the-site-url" property="og:url">
+  <meta content="images/embedimage.png" property="og:image">
+  <meta content="#43B581" data-react-helmet="true" name="theme-color">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="icon" type="image/svg+xml" href="fonts/favicon-dark.svg">
+  <link rel="stylesheet" type="text/css" href="css/roadmap.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+  <div id="background">
+    <div id="container">
+      <div id="overlay-background">
+        <div id="overlay" class="width-group">
+          <div id="feature" class="item-category">
+            <div class="timeframe-label sans-font" id="feature-label">Feature name</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="logo-container">
+        <img src="images/LogoEdit.png" class="logo" alt="Joulion Studio Logo" aa>
+      </div>
+      <div class="width-group">
+        <div id="subtitle" class="sans-font">
+          We develop cool games and we want to share them with you!
+          <br><br>Here you can watch our development, and our new releases, we recommend you to subscribe to our group in roblox.
+        </div>
+        <div id="cta-buttons">
+          <a href="https://www.roblox.com/groups/32630720/Joulion-Studio" target="_blank" class="cta-button" id="play-button">
+            <img src="images/roblox.png" class="cta-logo" id="play-logo">
+            <div class="cta-label play-label sans-font">Roblox Group</div>
+          </a>
+          <div id="social-buttons">
+            <a href="" class="cta-button" id="discord-button">
+              <img src="images/discord.png" class="cta-logo" id="discord-logo">
+              <div class="cta-label sans-font">Discord</div>
+            </a>
+
+            <a href="" target="_blank" class="cta-button" id="youtube-button">
+              <img src="images/twitter.png" class="cta-logo" id="youtube-logo">
+              <div class="cta-label sans-font">Twitter</div>
+            </a>
+        </div>
+
+        </div>
+
+        
+        <!-- <div id="cta-buttons-lower">
+              <a href="./blog/news/news.html" target="_blank" class="cta-button" id="blog-button">
+              <img src="images/TesterForm.png" class="cta-logo" id="blog-logo">
+              <div class="cta-label sans-font">Dev Blog</div>
+            </a>
+        </div> -->
+      </div>
+      <!-- <div id="roadmap-label" class="sans-font">Development Roadmap<br>
+        <center>08.04.2023</center>
+      </div> -->
+      <div id="items" class="width-group">
+
+        <div id="long-term" class="item-category">
+          <div class="timeframe-label sans-font" id="long-term-label">Upcoming Games</div>
+          <div id="long-term-items" class="items-container">
+
+          </div>
+        </div>
+        <div id="pre-release" class="item-category">
+          <div class="timeframe-label sans-font" id="pre-release-label">Released games</div>
+          <div id="pre-release-items" class="items-container">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="item-template" class="roadmap-item">
+    <div class="item-title-row">
+
+      <div class="item-title sans-font">Title</div>
+      <div class="item-status sans-font"></div>
+    </div>
+    <div class="item-description sans-font">Description</div>
+
+    <div class="button-container">
+      <br>
+      <a href="#" class="cta-button" id="play-button" target="_blank">
+        <img src="images/roblox.png" class="cta-logo" id="play-logo">
+        <div class="cta-label item-description sans-font">Read More</div>
+      </a>
+    </div>
+
+  </div>
+  <!-- type="module" makes the javascript run BEFORE the site is shown to the user, preventing the weird flickering that happens when you are populating the roadmap items.-->
+  <script src="js/roadmap.js"></script>
+  <script src="js/background.js"></script>
+
+</body></html>

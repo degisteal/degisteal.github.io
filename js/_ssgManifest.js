@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["/disclosures/[disclosure]","/ftxcm-recovery"]),self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB();
