@@ -1,4 +1,4 @@
-const COMPLETED = "completed",
+const COMPLETED = "released",
     DEPLOYED = "deployed",
     IN_PROGRESS = "in-progress",
     NEXT = "next",
@@ -6,14 +6,16 @@ const COMPLETED = "completed",
     POLISHING = "polishing",
     FIXED = "fixed",
     COMINGSOON = "Coming Soon",
+    PBT = "PBT",
     STATUS_NAMES = {
-        [COMPLETED]: "PBE Testing",
+        [COMPLETED]: "Released",
         [DEPLOYED]: "Live",
         [IN_PROGRESS]: "In progress",
         [NEXT]: "Next priority",
         [DELAYED]: "Delayed",
         [POLISHING]: "Polishing",
         [COMINGSOON]: "Coming Soon",
+        [PBT]: "PBT",
         [FIXED]: "Fixed"
     },
 
@@ -32,7 +34,7 @@ const COMPLETED = "completed",
     PRE_RELEASE = [{
         title: "🧛‍♂️Vampire Murder",
         description: "Play with friends as a Vampire, Hunter, or human. Be cautious, accidentally killing a human means death for you. Roles are randomized each match. Find weapons to fight the Vampire or aid the Vampire Hunter. Beware, the vampire lurks among the players. Minimum 3-players to start. Prepare for an adrenaline-pumping adventure!",
-        status: COMPLETED,
+        status: PBT,
         link: "https://www.roblox.com/games/14132106226/Vampire-Murder-ALPHA"
     }],
 
