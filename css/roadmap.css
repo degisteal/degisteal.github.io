@@ -119,6 +119,7 @@ a {
 #social-buttons {
   flex-basis: 51%;
   display: flex;
+  padding: 5px;
   justify-content: space-between;
 }
 
