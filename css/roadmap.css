@@ -37,7 +37,7 @@ a {
 }
 
 #background {
-  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0.75)), url('../images/DarkHall.png');
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0.75)), url('../images/backgorund.png');
   background-position: center center;
   background-size: cover;
   background-repeat: repeat;
