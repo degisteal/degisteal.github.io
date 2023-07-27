@@ -18,7 +18,7 @@ const COMPLETED = "completed",
     },
 
     LONG_TERM = [{
-        title: "The Stranger",
+        title: "💀The Stranger",
         description: "You can become an unknown monster that has supernatural powers.",
         status: COMINGSOON,
         link: "https://www.roblox.com/games/14207409077/THE-STRANGER-BETA",
@@ -30,7 +30,7 @@ const COMPLETED = "completed",
     }],
 
     PRE_RELEASE = [{
-        title: "Vampire Murder",
+        title: "🧛‍♂️Vampire Murder",
         description: "Play with friends, take on the role of Vampire, Hunter or human.",
         status: COMPLETED,
         link: "https://www.roblox.com/games/14132106226/Vampire-Murder-ALPHA"
