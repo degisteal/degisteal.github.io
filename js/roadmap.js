@@ -23,7 +23,7 @@ const COMPLETED = "released",
         title: "💀The Stranger",
         description: "You can become an unknown monster that has supernatural powers.",
         status: COMINGSOON,
-        link: "https://www.roblox.com/games/14207409077/THE-STRANGER-BETA",
+        link: "https://www.roblox.com/games/14218299975/The-Stranger",
         features: [{
             title: "General Mechanics",
             description: "The basic mechanics of the game are being developed, from interface elements to player interactions.",
